@@ -43,4 +43,25 @@ NVMe is faster than SAS and SAS is faster than SATA
 ```
 The bitfield back sort is theoretically faster than not using the bitfield and we already know that it saves 12% of total writes but requires more RAM
 
+You almost never want to use any bucket values other than 128.
+
+
+
+Using anything over the maximum is wasting RAM as you will not plot any faster
+
 ```
+
+
+### THREAD
+```
+As far as number of threads are concerned you are generally going to want 2 to 4. More than 4 seems to have diminishing returns and 2 threads is a lot better than 1. More threads also require a bit more memory to successfully complete a plot. The threading is only used in phase 1 currently.
+
+```
+
+
+### THE DIFF OS
+```
+It is worth noting that Windows suffers 5-10% slower plot times versus MacOS or Linux for now   
+
+```
+
