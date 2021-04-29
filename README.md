@@ -29,3 +29,19 @@ phase 3 sorts and algorithmically compress these hashes in the temporary directo
 phase 4 completes the file and moves it into your final plot file.
 
 ```
+
+
+```
+SSD
+
+NVMe is faster than SAS and SAS is faster than SATA
+
+
+```
+
+```
+RAM
+
+The bitfield back sort is theoretically faster than not using the bitfield and we already know that it saves 12% of total writes but requires more RAM
+
+```
