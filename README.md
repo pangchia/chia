@@ -79,3 +79,14 @@ If you cause your operating system to swap, you are not going to be happy with y
 You don’t have to be as careful with thread count.
 ```
 
+### Wallet not synced
+```
+Why is my wallet not synced? Why can I not connect to wallet from the GUI?
+In these cases, your wallet database might be corrupt. Try the following steps:
+
+Shut down chia and all chia proceses, check the task manager to see if they are all shut down. Note that this will cancel running plots, so be careful.
+Restart your computer
+Delete the ~/.chia/mainnet/wallet/db folder
+Restart chia
+```
+
