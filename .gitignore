@@ -1,0 +1,11 @@
+log
+*.iml
+.idea
+target
+.project
+.settings
+.DS_Store
+.classpath
+.factorypath
+.springBeans
+APP_HOME_IS_UNDEFINED
