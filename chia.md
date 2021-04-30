@@ -40,6 +40,9 @@ phase 4 completes the file and moves it into your final plot file.
 NVMe is faster than SAS and SAS is faster than SATA
 
 ```
+![Compare](http://www.lubaoqiang.com/img/chia_20210430162131.jpg)
+
+
 
 ### RAM
 ```
@@ -123,3 +126,4 @@ cd %systemdrive%%homepath%\AppData\Local\Chia-Blockchain\app-1.1.2\resources\app
 
 
 ```
+
