@@ -98,3 +98,13 @@ Windows 10
 Ubuntu 18.04 (20.04 highly recommended)
 Raspberry Pi OS 64 or Ubuntu 20.04 for Pi/ARM64 (Not recommended for plotting or timelord)
 ```
+
+
+
+### change log level
+```
+~\.chia\mainnet\config
+
+config\config.yaml to INFO from WARNING and restart
+
+```
