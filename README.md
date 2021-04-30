@@ -90,3 +90,11 @@ Delete the ~/.chia/mainnet/wallet/db folder
 Restart chia
 ```
 
+### Support OS
+
+```
+MacOS 10.14 Mojave
+Windows 10
+Ubuntu 18.04 (20.04 highly recommended)
+Raspberry Pi OS 64 or Ubuntu 20.04 for Pi/ARM64 (Not recommended for plotting or timelord)
+```
