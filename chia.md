@@ -108,3 +108,18 @@ Raspberry Pi OS 64 or Ubuntu 20.04 for Pi/ARM64 (Not recommended for plotting or
 config\config.yaml to INFO from WARNING and restart
 
 ```
+
+
+
+###
+```
+Disable uPnP when running multiple nodes
+If you attempt to run more than one node on your local network, 
+having uPnP on on both will cause both nodes significant confusion. 
+You will need to use powershell to disable uPnP on all but one.
+
+cd %systemdrive%%homepath%\AppData\Local\Chia-Blockchain\app-1.1.2\resources\app.asar.unpacked\daemon\
+    ./chia.exe configure --enable-upnp false
+
+
+```
