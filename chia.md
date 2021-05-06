@@ -158,3 +158,10 @@ cd %systemdrive%%homepath%\AppData\Local\Chia-Blockchain\app-1.1.2\resources\app
 ```
 If you have 10TB and there are 200PB of total storage on mainnet then you would expect to win ~0.46 TXCH per day on average. The math is .010 PB/200 PB * 4608 * 2 = 0.46. That means that over a long enough period of time you will expect to average out to generally winning every 4-5 days.
 ```
+
+
+# NVME SSD     more full , more perform poor
+
+```
+Consumer NVMe SSDs also generally have low amount of spare area or overprovisioning, and perform poorly when they get close to being full. 
+```
