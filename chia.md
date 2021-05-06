@@ -165,3 +165,8 @@ If you have 10TB and there are 200PB of total storage on mainnet then you would 
 ```
 Consumer NVMe SSDs also generally have low amount of spare area or overprovisioning, and perform poorly when they get close to being full. 
 ```
+
+#
+```
+ U.2 is the most common enterprise SSD form factor, but M.2 110mm was also very popular in a few hyperscale cloud providers like Facebook and Microsoft. I recommend data center U.2 NVMe SSDs for plotting, but there are plenty of good options in M.2 110mm and AIC as well
+```
