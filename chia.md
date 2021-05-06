@@ -170,3 +170,11 @@ Consumer NVMe SSDs also generally have low amount of spare area or overprovision
 ```
  U.2 is the most common enterprise SSD form factor, but M.2 110mm was also very popular in a few hyperscale cloud providers like Facebook and Microsoft. I recommend data center U.2 NVMe SSDs for plotting, but there are plenty of good options in M.2 110mm and AIC as well
 ```
+
+
+Using U.2 on a desktop requires a custom adapter (unless you have an X299 board or server board that supports native U.2 NVMe SSDs. You can use an adapter like the ones below.
+
+PCIe add-in-card to U.2 adapter, StarTech PEX4SFF8639
+DiLinKer M.2 to U.2 I’ve used this on dozens of desktops and drives with no issues at PCIe 3.0 x4 (not tested yet at PCIe 4.0 x4)
+If you are on a Supermicro or server platform, you can use retimer cards like this with OcuLink cables (this is the official name for the PCIe compliant cable, although PCIe runs on many, many different types of cabling)
+If you want to attach 4-8 U.2 on a single desktop, you can use a card like this that contains a PCIe switch (no need for BIOS settings!)
