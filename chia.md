@@ -176,5 +176,7 @@ Using U.2 on a desktop requires a custom adapter (unless you have an X299 board 
 
 PCIe add-in-card to U.2 adapter, StarTech PEX4SFF8639
 DiLinKer M.2 to U.2 I’ve used this on dozens of desktops and drives with no issues at PCIe 3.0 x4 (not tested yet at PCIe 4.0 x4)
+https://www.amazon.com/DiLiVing-SFF-8639-SFF-8643-Connector-Servers-LRNV9324-4I/dp/B089SQ84CH
+
 If you are on a Supermicro or server platform, you can use retimer cards like this with OcuLink cables (this is the official name for the PCIe compliant cable, although PCIe runs on many, many different types of cabling)
 If you want to attach 4-8 U.2 on a single desktop, you can use a card like this that contains a PCIe switch (no need for BIOS settings!)
