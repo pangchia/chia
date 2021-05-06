@@ -33,6 +33,19 @@ phase 2 back-propagates through the hashes,
 phase 3 sorts and algorithmically compress these hashes in the temporary directory while starting to build the final file 
 phase 4 completes the file and moves it into your final plot file.
 
+
+
+P盘分为四个阶段
+阶段1: 正向传播，创建七个哈希加密表，填充空间证明数据，占用大量CPU线程和内存以及SSD读写，CPU多线程只在这个阶段有用；
+阶段2: 反向传播，删除无效哈希数据；
+阶段3: 对哈希数据压缩整理排序方便检索；
+阶段4: 检查数据点，写入最终文件；
+
+注意：
+第一阶段 占用大量SSD读写
+第四阶段 占用大量HDD读写
+建议P盘任务时间间隔960秒也就是16分钟！
+
 ```
 
 ### SSD
