@@ -180,3 +180,13 @@ https://www.amazon.com/DiLiVing-SFF-8639-SFF-8643-Connector-Servers-LRNV9324-4I/
 
 If you are on a Supermicro or server platform, you can use retimer cards like this with OcuLink cables (this is the official name for the PCIe compliant cable, although PCIe runs on many, many different types of cabling)
 If you want to attach 4-8 U.2 on a single desktop, you can use a card like this that contains a PCIe switch (no need for BIOS settings!)
+
+
+
+# VDF
+```
+
+VDF (verifiable delay function) 
+This proof is achieved using something called a VDF (verifiable delay function) which is a way of proving that an amount of time has been spent performing some work.
+
+```
