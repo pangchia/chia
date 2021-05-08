@@ -1,7 +1,7 @@
-chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\4 -d H:\104
-chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\5 -d H:\105
-chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\16 -d I:\106
-chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\17 -d I:\107
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\8 -d I:\108
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\9 -d I:\109
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\20 -d I:\110
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\11 -d I:\111
 
 -f [farmer pk]
 -p [pool pk]
