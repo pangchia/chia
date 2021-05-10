@@ -5,3 +5,10 @@ chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\11 -d I:\111
 
 -f [farmer pk]
 -p [pool pk]
+
+
+
+
+# grep 
+
+C:\Users\admin\.chia\mainnet\log>grep -S "new_proof_of_space" debug.log
