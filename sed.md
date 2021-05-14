@@ -11,3 +11,4 @@ sed 's/##//' abc.txt |sed '{N;s/\n//}' > single.txt
 抽取
 cat single.txt | awk -F' ' '{print $2 , $3, $4, $11}'
 
+sed 's/##//' /home/lubq/chia/test.txt |sed '{N;s/\n//}' | awk -F' ' '{print $2 , $3, $4, $11}' 
