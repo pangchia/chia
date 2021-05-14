@@ -8,4 +8,6 @@ sed -i 's/[ ][ ]*/ /g'  file.txt
 sed 's/##//' abc.txt |sed '{N;s/\n//}' > single.txt 
 
 
+抽取
+cat single.txt | awk -F' ' '{print $2 , $3, $4, $11}'
 
