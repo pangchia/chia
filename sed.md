@@ -1,15 +1,18 @@
+chia show -c |grep -E "FULL_NODE|Height" > /home/lubq/chia/shell/g.txt
+
 
 替换 多个空格为一个
-sed -i 's/[ ][ ]*/ /g'  file.txt
+sed -i 's/[ ][ ]*/ /g'  g.txt
 
 
 
 每两行 替换成一行
-sed 's/##//' abc.txt |sed '{N;s/\n//}' > single.txt 
+sed 's/##//'  g.txt |sed '{N;s/\n//}' > s.txt 
 
 
 抽取
-cat single.txt | awk -F' ' '{print $2 , $3, $4, $11}'
+cat s.txt | awk -F' ' '{print $2 , $3, $4, $11}'
+cat s.txt | awk -F' |/' '{print $2 , $3, $5, $13}'
 
 sed 's/##//' /home/lubq/chia/test.txt |sed '{N;s/\n//}' | awk -F' ' '{print $2 , $3, $4, $11}' 
 
