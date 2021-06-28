@@ -16,6 +16,14 @@ systemctl disable motd-news.timer
 Removed /etc/systemd/system/timers.target.wants/motd-news.timer.
 ```
 
+
+```
+systemctl stop motd-news.timer
+systemctl stop apt-daily-upgrade.timer 
+systemctl stop apt-daily.timer
+
+```
+
 # service
 
 ```
