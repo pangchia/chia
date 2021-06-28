@@ -1,4 +1,8 @@
 ```
+systemctl list-timers -a
+```
+
+```
 systemctl disable apt-daily.timer 
 
 Removed /etc/systemd/system/timers.target.wants/apt-daily.timer.
