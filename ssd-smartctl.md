@@ -3,7 +3,7 @@ apt install smartmontools
 
 smartctl -A /dev/nvme0n1
 
-
+```
 
 === START OF SMART DATA SECTION ===
 SMART/Health Information (NVMe Log 0x02)
@@ -24,3 +24,4 @@ Media and Data Integrity Errors:    0
 Error Information Log Entries:      1
 Warning  Comp. Temperature Time:    9
 Critical Comp. Temperature Time:    0
+```
