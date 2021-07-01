@@ -12,3 +12,6 @@ systemctl is-enabled NetworkManager.service
 
 设置开机自动启动
 systemctl enable NetworkManager.service
+
+
+https://websiteforstudents.com/how-to-list-services-on-ubuntu-20-04-18-04/
