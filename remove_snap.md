@@ -13,3 +13,11 @@ snapd              2.51.1              12398  latest/stable    canonical✓  sna
 sudo snap remove --purge [package-name]
 
 ```
+
+```
+sudo apt autoremove --purge snapd gnome-software-plugin-snap
+
+
+
+
+```
