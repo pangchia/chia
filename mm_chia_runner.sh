@@ -23,25 +23,15 @@ function start(){
 
    chiaPlotProcess=`ps -ef|grep "chia_plot" |  grep -v grep | awk -F' ' '{print $2}'`
    
-#   touch $runner_log_file
-#   touch $monitor_log_file
-
   if [[ ! -n "${chiaPlotProcess}" ]] ; then
-   
-	# dtimes=`date '+%Y-%m-%d %H:%M:%S'`
-	# emails=`cat /home/lubq/alter_mail_list.txt`
-	# cpu_average=`top -b -n 1 | grep "load" | awk '{printf $10 $11 $12 $13 $14}'`
-	
 
  	dest_message=`df -BG|grep "${target_direction}" |awk -F' ' '{printf $2 $3 $4}'`
 	temp1_message=`df -BG|grep "${temp1_direction}" |awk -F' ' '{printf $2 $3 $4}'`
 	temp2_message=`df -BG|grep "${temp2_direction}" |awk -F' ' '{printf $2 $3 $4}'`
 
-
  	all=`echo ${dest_message} | awk -F'G' '{printf $1}'`
  	used=`echo ${dest_message} | awk -F'G' '{printf $2}'`
  	left=`echo ${dest_message} | awk -F'G' '{printf $3}'`
-
 
 	echo "${dttimes} temp1 msg:[${temp1_message}]      temp2 msg: [${temp2_message}]" >> $monitor_log_file
 
