@@ -1,0 +1,19 @@
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\8 -d I:\108
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t C:\chia-temp-plot\9 -d I:\109
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\20 -d I:\110
+chia plots create -k 32 -b 4000 -n 1 -r 4 -u 128 -t J:\11 -d I:\111
+
+-f [farmer pk]
+-p [pool pk]
+
+
+
+
+# grep 
+
+C:\Users\admin\.chia\mainnet\log>grep -S "new_proof_of_space" debug.log
+
+
+# add node 
+
+chia show -a 节点ip:8444例如添加节点 chia show -a 192.168.1.222:8444
